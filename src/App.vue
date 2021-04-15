@@ -1,12 +1,22 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div id="app" class="w-screen h-screen">
+    <div class="w-full h-96 ">
+      <Nav></Nav>
+      <router-view></router-view>
+    </div>
   </div>
-  <router-view/>
 </template>
+<script>
+import Nav from "@/components/layout/Nav.vue";
+export default {
+  name: "app",
+  components: {
+    Nav,
+  },
+};
+</script>
 
-<style>
+<style scoped>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
