@@ -10,7 +10,7 @@
 
 <script>
 export default {
-  name: "NAV",
+  name: "Nav",
   props: {},
 };
 </script>
