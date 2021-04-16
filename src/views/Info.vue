@@ -1,6 +1,6 @@
 <template>
   <div>
-    <table id="customers">
+    <table id="show">
       <tr>
         <th>Firstname</th>
         <th>Lastname</th>
@@ -155,14 +155,14 @@ export default {
 </script>
 
 <style>
-#customers {
+#show {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 100%;
 }
 
-#customers td,
-#customers th {
+#show td,
+#show th {
   border: 1px solid #ddd;
   padding: 8px;
 }
@@ -170,15 +170,15 @@ export default {
   border: 1px solid #ddd;
   padding: 8px;
 }
-#customers tr:nth-child(even) {
+#show tr:nth-child(even) {
   background-color: #f2f2f2;
 }
 
-#customers tr:hover {
+#show tr:hover {
   background-color: #ddd;
 }
 
-#customers th {
+#show th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: center;
