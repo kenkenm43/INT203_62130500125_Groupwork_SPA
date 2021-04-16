@@ -36,7 +36,7 @@
 </template>
 <script>
 export default {
-  name: "app",
+  name: "former",
   components: {},
   data() {
     return {
@@ -44,6 +44,7 @@ export default {
       errors: null,
       url: "http://localhost:5000/formInfo",
       formResult: [],
+      count: "",
     };
   },
   methods: {
@@ -106,8 +107,11 @@ export default {
 }
 .input-group textarea {
   font-size: 16px;
-  padding: 5px 10px;
-  border-radius: 5px;
-  border: 1px solid gray;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
 }
 </style>
