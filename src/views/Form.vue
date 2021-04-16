@@ -36,7 +36,7 @@
 </template>
 <script>
 export default {
-  name: "former",
+  name: "form",
   components: {},
   data() {
     return {
