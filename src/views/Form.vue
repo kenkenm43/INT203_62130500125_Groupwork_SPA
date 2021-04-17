@@ -67,6 +67,7 @@ export default {
         this.form.firstName = null;
         this.form.lastName = null;
         this.form.message = null;
+        this.$router.push({path:'/info'})
       }
     },
     async addNewInfo(newInfo) {
